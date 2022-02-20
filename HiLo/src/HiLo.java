@@ -12,11 +12,11 @@ public class HiLo {
 			System.out.println("Guess a number between 1 and 100:");
 			guess = scan.nextInt();
 			if (guess < theNumber)
-				System.out.println( guess + "is too low. Try again.");
+				System.out.println( guess + " is too low. Try again.");
 			else if (guess > theNumber)
-				System.out.println( guess + "is too high. Try again.");
+				System.out.println( guess + " is too high. Try again.");
 			else 
-				System.out.println(guess + "is correct. You win!");
+				System.out.println(guess + " is correct. You win!");
 		} // End of while loop
 
 	}
